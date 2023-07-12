@@ -31,7 +31,7 @@ spec: # especificação do recurso
             - '-nginx.scrape-uri=http://localhost/metrics' # argumento para definir a URI de scraping
           resources: # recursos do container
             limits: # limites de recursos
-              memory: 128Mi # limite de memória
+              memory: 256Mi # limite de memória
               cpu: 0.3 # limite de CPU
           ports: # portas do container
             - containerPort: 9113 # porta do container que será exposta
